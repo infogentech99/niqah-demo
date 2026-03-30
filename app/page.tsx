@@ -242,7 +242,7 @@ export default function Home() {
         <div className=" pt-24 md:pb-20 relative z-10 pb-24">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[70px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0
+     text-[70px] sm:text-5xl lg:text-[100px] lg:pb-470 md:pb-370 pb-0
   flex flex-col items-center gap-y-2">
 
             <span className="font-parisienne">Himanshi</span>
