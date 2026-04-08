@@ -71,7 +71,7 @@ export default function Home() {
       link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
     },
 
- {
+    {
       title_ceremony: "Engagement",
       image: "/assets/aura_engagement.png",
       date: "Tuesday, March 10th 2026",
@@ -164,8 +164,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020634/aura_demo_mobile_ejxmkd.webp')]
-    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020630/aura_demo_vaomtp.webp')]
+    bg-[url('/assets/mainmobile_wm.png')]
+    md:bg-[url('/assets/main_wm.png')]
     bg-cover
     bg-no-repeat
     bg-top
@@ -294,12 +294,12 @@ export default function Home() {
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-             Himanshi
+              Himanshi
             </h2>
 
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-               (D/o Mrs. Kalpana kapoor and Mr. Raj Kapoor)
+              (D/o Mrs. Kalpana kapoor and Mr. Raj Kapoor)
               <br /> (Granddaughter of Shri J.S. Kapoor)
             </p>
 
@@ -336,7 +336,7 @@ export default function Home() {
                     {event.title_ceremony}
                   </h2>
 
-                
+
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[22px]">{event.date}</span>  <br />
@@ -362,7 +362,7 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020617/meet_aura_nymlsp.webp')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('/assets/couple_wm.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
@@ -372,11 +372,9 @@ export default function Home() {
           </h2>
         </div>
       </div>
-
-
       {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772084883/mobile_mmet_hysktb.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('/assets/couplemobile_wm.png')] bg-cover bg-no-repeat">
         <div className="h-200">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-26 font-cormorant">
             MEET THE
@@ -391,28 +389,28 @@ export default function Home() {
       <CoupleMessage />
       <ThingsToKnow />
 
-      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020613/moon_aura_utrh7a.webp')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('/assets/moon_wm.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
         </div>
       </div>
 
       {/* mobile visible section */}
-      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020638/moon_mobile_iidf33.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('/assets/moonmobile_wm.png')] bg-cover bg-no-repeat">
         <div className="h-210">
         </div>
       </div>
       <MarriageCountdown />
-<div className="fixed top-5 left-5 z-50">
-  <a href="https://invitearc.com/">
-    <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">    
-      <span className="text-3xl leading-none">←</span>
-      <span className="text-[16px] font-semibold">
-        Exit Preview
-      </span>
+      <div className="fixed top-5 left-5 z-50">
+        <a href="https://invitearc.com/">
+          <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">
+            <span className="text-3xl leading-none">←</span>
+            <span className="text-[16px] font-semibold">
+              Exit Preview
+            </span>
 
-    </button>
-  </a>
-</div> 
+          </button>
+        </a>
+      </div>
     </>
   );
 }
