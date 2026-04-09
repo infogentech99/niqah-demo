@@ -30,10 +30,10 @@ export default function CoupleMessage() {
 
     return (
 
-        <div className="bg-[url('/assets/couplebg_wm.png')] bg-cover bg-no-repeat">
-             <div className="lg:h-592 md:h-520 h-535">
-                <h1 className="lg:text-[50px] md:text-3xl text-[52px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
-                <h2 className="lg:text-[30px] text-[22px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-7">
+        <div className="bg-[url('/assets/bg_second.webp')] bg-cover bg-no-repeat">
+             <div className="lg:h-768 md:h-520 h-737">
+                <h1 className="lg:text-[50px] md:text-3xl text-[52px] text-center text-[#FFF5B9] lg:pt-32 pt-12 jacques-francois-upright">A message from the couple</h1>
+                <h2 className="lg:text-[30px] text-[22px]  text-center text-[#FFF5B9] lg:px-60 px-6 lg:mt-28 mt-12 jacques-francois-upright lg:leading-8 md:leading-8 leading-7">
                     From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
                     This moment wouldn’t be the same without the people we love most. Thank you for your love, blessings, and for making our journey even more special, we’re so excited to celebrate together!</h2>
                  <div className="md:mt-32 mt-26 flex justify-center items-center">
@@ -69,28 +69,86 @@ export default function CoupleMessage() {
                     </Swiper>
                 </div> 
 
-                <div className="flex flex-col-1 justify-center items-center mt-16">
-                    <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
-                        <h1 className="lg:text-5xl md:text-4xl text-[30px] leading-8 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-36 md:pt-28 pt-26 font-cormorant-upright">
-                         We Look forward<br />to your presence on <br /> the special occasion !</h1>
-                        <p className="lg:text-[32px] text-[18px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant-upright font-bold">
-                         RSVP:
-                        </p>
-                        <p className="lg:text-[26px] text-[16px] text-white md:mt-10 mt-4 text-center font-cormorant-upright font-bold md:leading-4 leading-3">
-                            <p className="lg:text-[28px] text-[20px]"
-                            >Rony Kapoor</p><br /> 
-                            <p className="lg:text-[28px] text-[20px]"
-                            > Harsh Kapoor</p>
-                            <br /></p>
-                    </div>
-                </div>
+                  <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF5B9] lg:pt-32 pt-12 jacques-francois">
+            Things to <br /> know
+          </h1>
+          <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-4 mt-2 jacques-francois">
+            To help you feel at ease and enjoy every moment of the celebrations,
+            we’ve gathered a few thoughtful details we’d love for you to know
+            before the big day.
+          </h2>
+          <div className="flex justify-center mt-20 pb-24">
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
+              <div className="flex flex-col items-center justify-center text-center">
+                <img
+                  src="/assets/weather_h.png"
+                  alt="weather"
+                  className="lg:h-20 lg:w-24 h-26 w-32 "
+                />
+                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 jacques-francois-upright">
+                  Weather
+                </h2>
+                <p className="md:text-[18px] text-[14px] text-[#FFF5B9] mt-1 jacques-francois md:leading-5">
+                  It will be mostly cloudy with <br />
+                  temperature reaching up <br />
+                  to 22 degrees at the venue
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-center text-center">
+                <img
+                  src="/assets/drive_h.png"
+                  alt="drive"
+                  className="lg:h-23 lg:w-21 h-32 w-29"
+                />
+                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 jacques-francois-upright">
+                  Staff
+                </h2>
+                <p className="md:text-[18px] text-[14px] md:leading-5 text-[#FFF5B9] mt-1 jacques-francois">
+                  We recommend the nearby <br />
+                  lodge called VEGA near the <br />
+                  venue for the staff members
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-center text-center">
+                <img
+                  src="/assets/car_h.png"
+                  alt="car"
+                  className="lg:h-20 lg:w-24 h-26 w-32 "
+                />
+                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 jacques-francois-upright">
+                  Parking
+                </h2>
+                <p className="md:text-[18px] text-[14px] md:leading-5 text-[#FFF5B9] mt-1 jacques-francois">
+                  Valet parking for all our <br />
+                  guests will be available <br />
+                  at the venue
+                </p>
+              </div>
+            </div>
+          </div>
 
+             
 
-                <div className="flex flex-col justify-center items-center lg:mt-15 mt-18">
-                    <h2 className="lg:text-3xl text-2xl text-center text-white lg:pt-6 font-cormorant-upright">Please help us capture our special day, <br /> use the hashtag</h2>
-                    <h2 className="lg:text-3xl text-2xl text-center text-white pt-2 font-cormorant-upright"> #FromHimanshiToKapoor</h2>
-                    <img src="/assets/kirannew_moon.png" alt="" className="bg-cover bg-no-repeat lg:h-80 lg:w-80 h-65 w-65 md:h-90 md:w-90 mt-12" />
-                     </div>
+            <div className="flex items-center lg:mt-20">
+                <img
+              src="/assets/couple_img2.png"
+              alt="couple"
+              className="w-60 h-108 lg:w-205 lg:h-252 object-cover"
+            />
+            <div className="lg:ml-60">
+            <h2 className="lg:text-5xl text-[22px] text-center text-[#FFF5B9] lg:pt-63 jacques-francois-upright pt-4 md:leading-12 leading-6">
+              Looking Forward to <br /> Seeing You
+            </h2>
+            <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
+              <a href="#" target="_blank">
+                <img src="/assets/whatsapp.png" alt="" className="lg:h-10 lg:w-10 h-6 w-6" />
+              </a>
+              <h2 className="lg:text-3xl text-[18px] text-center text-[#FFF5B9]  jacques-francois-upright">
+                Click the Link to RSVP
+              </h2>
+            </div>
+            </div>
+          </div>
 
 
 

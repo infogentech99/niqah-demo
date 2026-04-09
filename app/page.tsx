@@ -90,6 +90,8 @@ export default function Home() {
       time: "4:00pm Onwards",
       link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
     },
+
+
     {
       title_ceremony: "Reception",
       image: "/assets/aura_reception.png",
@@ -164,14 +166,13 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/mainmobile_wm.png')]
-    md:bg-[url('/assets/main_wm.png')]
+    bg-[url('/assets/respo_bg_img.webp')]
+    md:bg-[url('/assets/bg_img3.png')]
     bg-cover
     bg-no-repeat
     bg-top
     md:bg-center
     w-full
-    px-4 sm:px-8
     overflow-hidden
     relative
   "
@@ -239,85 +240,77 @@ export default function Home() {
 
 
         {/* <FallingLamps /> */}
-        <div className=" pt-24 md:pb-20 relative z-10 pb-24">
+        <div className=" md:pt-44 md:pb-0 relative z-10 pt-12">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[70px] sm:text-5xl lg:text-[100px] lg:pb-470 md:pb-370 pb-0
+     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-370 pb-160
   flex flex-col items-center gap-y-2">
 
-            <span className="font-parisienne">Himanshi</span>
+            <span className="jacques-francois">Fardeen</span>
 
             <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
 
-            <span className="font-parisienne">Karan</span>
+            <span className="jacques-francois">Zarin</span>
 
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-150">
-            <img
-              src="/assets/ganesh_inter.png"
-              alt=""
-              className="md:w-40 w-28 h-auto"
-            />
-            <h2 className="text-[#E6D2FF] md:text-2xl text-[17px] text-center">
-              || श्री गणेशाय नमः ||
-            </h2>
-            <h2 className="text-[#E6D2FF] md:text-2xl text-[17px] text-center">
-              वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।
-              <br />
-              निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
-            </h2>
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
 
 
-            <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[20px] font-cormorant-upright">
+            <p className="jacques-francois text-sm md:text-xl lg:text-3xl text-[#FFF5B9] text-center">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم</p>
+            <p className="jacques-francois text-sm md:text-xl lg:text-3xl text-[#FFF5B9] text-center">Bismillahir Rahmanir Raheem</p>
+
+
+
+            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-[20px] jacques-francois">
               With the heavenly blessings of
-              <br /> Late Smt. Kamla Kapoor
+              <br /> Mrs. Fatima Begum & Mr. Zafar Ahmed
             </h2>
 
-            <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
-
-            <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Kapoor Family
+            <hr className="lg:w-24 w-16 border-[#FFF5B9] my-4" />
+            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-[20px] jacques-francois">
+              Mrs. Shabana Khan & Mr. Rehan Malik
             </h2>
+
           </div>
 
 
           <div className="mt-8 text-center">
-            <h2 className="text-[#E6D2FF] font-cormorant 
+            <h2 className="text-[#FFF5B9] font-cormorant 
             text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
               INVITES
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              you to join us in the wedding celebrations of
+            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-[19px] mt-6">
+              You to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
-            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              Himanshi
+            <h2 className="text-[#FFF5B9] jacques-francois text-center mt-14
+            md:text-5xl text-[64px] lg:text-[80px] leading-tight font-medium">
+              FARDEEN
             </h2>
 
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (D/o Mrs. Kalpana kapoor and Mr. Raj Kapoor)
-              <br /> (Granddaughter of Shri J.S. Kapoor)
+            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl mt-2 text-[16px]">
+              (S/o Mrs. Nida Khan & Mr. Arshad Hussain)
+              <br /> (GrandSon of Abdul Samad)
             </p>
 
 
 
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
-            text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
-              <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
+            <h2 className="text-[#FFF5B9] jacques-francois text-center mt-4
+            text-[64px] sm:text-7xl lg:text-[80px] leading-tight font-medium">
+              <span className="text-[#FFF5B9] jacques-francois text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Karan
+              Zarin
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (S/o Mrs. Reena and Mr. Manjit Singh)
+            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-[16px] mt-2">
+              (D/o Mrs. Akram Sheikh & Fatima Sheikh)
             </p>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
+            <p className="text-[#FFF5B9] jacques-francois lg:text-3xl md:text-2xl text-[24px] mt-8">
               On the following events
             </p>
           </div>
@@ -332,13 +325,13 @@ export default function Home() {
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                  <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
                     {event.title_ceremony}
                   </h2>
 
 
 
-                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
+                  <p className="text-[#FFF5B9] jacques-francois text-[14px] sm:text-base mt-2">
                     <span className="text-[22px]">{event.date}</span>  <br />
                     <span className="text-[24px] uppercase"> {event.venue}</span> <br />
                     <span className="text-[20px]">{event.venue_address}</span> <br />
@@ -347,7 +340,7 @@ export default function Home() {
 
                   <a
                     href={event.link}
-                    className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant"
+                    className="text-[#FFF5B9] underline md:text-sm text-[18px] mt-2 font-cormorant"
                     target="_blank"
                   >
                     See the route
@@ -358,47 +351,62 @@ export default function Home() {
               ))}
             </div>
           </div>
+
+        
+
+
+          <div className="flex items-center justify-between pt-30 lg:pt-100">
+
+            <img
+              src="/assets/couple_b.png"
+              alt="couple"
+              className="w-60 h-108 lg:w-205 lg:h-260 object-cover"
+            />
+
+            {/* Center Text */}
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className="font-Cormorant-upright text-2xl md:text-base lg:text-4xl text-[#E1EF1E]">
+                MEET THE
+              </p>
+
+              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright md:leading-18 leading-6 pt-6">
+                <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
+              </h2>
+
+            </div>
+            <div className="self-end">
+              <img
+                src="/assets/lights.png"
+                alt="lights"
+                className="w-20 h-58 lg:w-60 lg:h-160 object-cover"
+              />
+            </div>
+          </div>
+
+
         </div>
       </div>
 
 
-      <div className="hidden md:block bg-[url('/assets/couple_wm.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-325 md:h-180">
-          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
-            MEET THE
-          </h1>
-          <h2 className="lg:text-[130px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-12">
-            <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
-          </h2>
-        </div>
-      </div>
-      {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('/assets/couplemobile_wm.png')] bg-cover bg-no-repeat">
-        <div className="h-200">
-          <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-26 font-cormorant">
-            MEET THE
-          </h1>
-          <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
-            <span className="text-[#ADBAFF] font-cormorant-upright">
-              Bride </span><br /> & <br /><span className="text-[#3FA9FF] font-cormorant-upright "> Groom </span>
-          </h2>
-        </div>
-      </div>
 
       <CoupleMessage />
       <ThingsToKnow />
 
-      <div className="hidden md:block bg-[url('/assets/moon_wm.png')] bg-cover bg-no-repeat">
-        <div className="lg:h-325 md:h-180">
+      <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
+        <div className="lg:h-335 md:h-180 flex flex-col items-center justify-center">
+          <img src="/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-60" />
         </div>
       </div>
+
 
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/moonmobile_wm.png')] bg-cover bg-no-repeat">
         <div className="h-210">
         </div>
       </div>
+
+
       <MarriageCountdown />
       <div className="fixed top-5 left-5 z-50">
         <a href="https://invitearc.com/">
