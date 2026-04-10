@@ -69,7 +69,7 @@ export default function CoupleMessage() {
                     </Swiper>
                 </div> 
 
-                  <h1 className=" lg:text-[100px] text-[60px] md:text-3xl text-center text-[#FFF097] lg:pt-32 pt-12 jacques-francois">
+                  <h1 className=" lg:text-[100px] text-[60px] md:text-5xl text-center text-[#FFF097] lg:pt-32 pt-12 jacques-francois">
             Things to <br /> know
           </h1>
           <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] lg:pt-6 lg:px-60 px-6 lg:mt-4 mt-2 jacques-francois">
@@ -78,7 +78,7 @@ export default function CoupleMessage() {
             before the big day.
           </h2>
           <div className="flex justify-center mt-20 pb-24">
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 md:gap-6">
               <div className="flex flex-col items-center justify-center text-center">
                 <img
                   src="/assets/weather.webp"
@@ -133,7 +133,7 @@ export default function CoupleMessage() {
                 <img
               src="/assets/couple_img2.webp"
               alt="couple"
-              className="w-50 h-80 md:w-100 md:h-129 lg:w-205 lg:h-252 object-cover  "
+              className="w-50 h-80 md:w-100 md:h-128 lg:w-205 lg:h-252 object-cover  "
             />
             <div className=" lg:ml-60">
             <h2 className="font-cormorant-upright text-[22px] md:text-4xl lg:text-5xl  text-center text-[#FFF5B9] lg:pt-63 jacques-francois-upright pt-4 md:leading-12 leading-6">

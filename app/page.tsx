@@ -164,7 +164,7 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/respo_bg_img.webp')]
+    bg-[url('/assets/respo_bg.webp')]
     md:bg-[url('/assets/bg_img3.png')]
     bg-cover
     bg-no-repeat
@@ -241,7 +241,7 @@ export default function Home() {
         <div className=" md:pt-44 md:pb-0 relative z-10 pt-12">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-160
+     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-240
   flex flex-col items-center gap-y-2">
 
             <span className="jacques-francois">Fardeen</span>
@@ -255,8 +255,8 @@ export default function Home() {
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
 
 
-            <p className="jacques-francois text-sm md:text-xl lg:text-3xl text-[#FFF5B9] text-center">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم</p>
-            <p className="jacques-francois text-sm md:text-xl lg:text-3xl text-[#FFF5B9] text-center">Bismillahir Rahmanir Raheem</p>
+            <p className="jacques-francois text-xl md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم</p>
+            <p className="jacques-francois text-xl md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">Bismillahir Rahmanir Raheem</p>
 
 
 
@@ -363,11 +363,11 @@ export default function Home() {
 
             {/* Center Text */}
             <div className="flex flex-col justify-center items-center text-center">
-              <p className="font-Cormorant-upright text-2xl md:text-base lg:text-4xl text-[#E1EF1E]">
+              <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
                 MEET THE
               </p>
 
-              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright md:leading-18 leading-6 pt-6">
+              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright md:leading-6 leading-6 pt-6">
                 <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
               </h2>
 
