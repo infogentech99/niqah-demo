@@ -147,7 +147,6 @@ export default function Home() {
     };
   }, [started]);
 
-
   return (
     <>
       <button
