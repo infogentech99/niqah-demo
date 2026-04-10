@@ -159,7 +159,7 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song_inter.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/background_song_muslim.mp3" loop preload="auto" playsInline />
 
 
       {/* hero section */}
