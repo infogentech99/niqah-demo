@@ -172,8 +172,7 @@ export default function Home() {
     md:bg-center
     w-full
     overflow-hidden
-    relative
-  "
+    relative"
       >
         {/* Decorative Lamps - Natural Flow Pattern */}
         {/* Left-to-Right Lamps - Less crowded */}
